@@ -19,8 +19,3 @@ body {
 .borderBottom {
   border-bottom: 3px solid black;
 }
-
-@media (max-width: 575px) {
-}
-@media (min-width: 1300px) {
-}
