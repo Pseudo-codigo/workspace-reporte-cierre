@@ -4,49 +4,25 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.logo {
-  width: 100%;
-  object-fit: contain;
-}
 
 .title {
-  font-size: 2.5em;
+  font-size: 2.3em;
+  font-weight: 500;
 }
 .subtitle {
-  font-size: 2em;
+  font-size: 1.7em;
+  font-weight: 500;
 }
 
-.invoiceTitle {
-  font-size: 14px;
-}
-
-.noBold {
-  font-weight: normal;
+.underlined{
+  border-bottom: 3px solid black;
 }
 
 .borderBottom {
   border-bottom: 3px solid black;
 }
 
-.invoiceHeader {
-  font-size: 12px;
-  /* vertical-align: middle !important; */
-}
-.invoiceProduct {
-  font-size: 11px;
-}
-
-.minWidth {
-  min-width: 70px;
-}
-
 @media (max-width: 575px) {
-  .logo {
-    width: 30%;
-  }
 }
 @media (min-width: 1300px) {
-  .logo {
-    width: 70%;
-  }
 }
